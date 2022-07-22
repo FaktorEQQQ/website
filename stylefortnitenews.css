@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background: #141d29;
+    overflow-x: hidden;
+}
+.aes
+{
+    background: #293546;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #293546;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.aesname
+{
+    margin-left: 150px;
+    font-size: 50px;
+    color: wheat;
+}
+.aesbuildname
+{
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+}
+.aesbuild
+{
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
+.aesmainkeyname
+{
+    margin-left: 160px;
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+}
+.aesmainkey
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 170px;
+}
+.aesupdatedname
+{
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+}
+.aesupdated
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+.news
+{
+    background: #293546;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #293546;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.news img
+{
+    border: 0px solid #293546;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+}
+.newsname
+{
+    margin-left: 150px;
+    font-size: 50px;
+    color: wheat;
+}
+.newshashname
+{
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+}
+.newshash
+{
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+}
+.newsdatename
+{
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+}
+.newsdate
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 110px;
+}

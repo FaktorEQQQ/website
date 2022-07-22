@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background: #141d29;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background: #314663;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(22, 179, 190);
+}
+
+
+
+.Panel1MiniDiscordBot
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+.Panel1MiniDiscordBot a
+{
+    line-height: 40px;
+}
+.Panel1MiniDiscordBot a button
+{
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    background-color: #141d29;
+    color: white;
+    margin-left: 40px;
+}
+.Panel1MiniDiscordBot h1
+{
+    margin-left: 20px;
+}
+.Panel1MiniDiscordBot a button:hover
+{
+    color: rgb(0, 238, 255);
+}
+
+.nazwaczynnosci
+{
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    margin-left: 830px;
+    margin-top: 280px;
+}
+.Panel2MiniDiscordBot
+{
+    transition: 0.2s;
+    width: 150px;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #293546;
+    text-align: center;
+    color: white;
+    line-height: 5;
+}
+.Panel2MiniDiscordBot:hover
+{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+.Panel2MiniDiscordBot label
+{
+    transition: 0.2s;
+}
+.Panel2MiniDiscordBot label:hover
+{
+    transition: 0.2s;
+    color: rgb(0, 238, 255);
+}
+.commandcategories
+{
+    width: 2000px;
+    height: 145px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 530px;
+}
+.commands
+{
+    font-size: 20px;
+    color: white;
+}
+.commandsc
+{
+    font-size: 20px;
+    color: rgb(0, 238, 255);
+}
+
+.Panel1MiniFortniteStats
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+.Panel1MiniFortniteStats a
+{
+    line-height: 40px;
+}
+.Panel1MiniFortniteStats a button
+{
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    background-color: #141d29;
+    color: white;
+    margin-left: 40px;
+}
+.Panel1MiniFortniteStats h1
+{
+    margin-left: 20px;
+}
+.Panel1MiniFortniteStats a button:hover
+{
+    color: aqua;
+}
+
+.faktor
+{
+    color: white;
+    margin-left: 770px;
+    margin-top: 300px;
+}
+.faktorr
+{
+    width: 300px;
+    height: 150px;
+    border: 2px solid #293546;
+    border-radius: 20px;
+    margin-left: 800px;
+    margin-top: 100px;
+    background-color: #293546;
+
+}
+.faktorr img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.faktorr h1
+{
+    color: white;
+    font-size: 22px;
+    margin-left: 80px;
+}
+
+
+
+@media only screen and (max-width: 1080px)
+{
+    .Panel1MiniDiscordBot
+    {
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+    .Panel1MiniDiscordBot h1
+    {
+        font-size: 100px;
+        margin-left: -150px;
+    }
+    .Panel1MiniDiscordBot img
+    {
+        width: 200px;
+        height: 200px;
+        margin-left: 90px;
+    }
+    .Panel1MiniDiscordBot a button
+    {
+        width: 500px;
+        height: 100px;
+        margin-left: -60px;
+        font-size: 50px;
+    }
+    .nazwaczynnosci
+    {
+        margin-top: 500px;
+        margin-left: 220px;
+        font-size: 50px;
+    }
+    .commandcategories
+    {
+        display: block;
+        margin-left: 320px;
+    }
+    .Panel2MiniDiscordBot
+    {
+        width: 400px;
+        height: 240px;
+        font-size: 50px;
+    }
+    .Panel1MiniFortniteStats
+    {
+        margin-top: 1400px;
+        margin-left: 400px;
+    }
+    .Panel1MiniFortniteStats h1
+    {
+        font-size: 100px;
+        margin-left: -270px;
+    }
+    .Panel1MiniFortniteStats img
+    {
+        width: 200px;
+        height: 200px;
+        margin-left: 60px;
+    }
+    
+    .Panel1MiniFortniteStats a button
+    {
+        width: 500px;
+        height: 100px;
+        margin-left: -80px;
+        font-size: 50px;
+    }
+    .faktor
+    {
+        margin-top: 500px;
+        margin-left: 290px;
+        font-size: 50px;
+    }
+    .faktorr
+    {
+        margin-top: 100px;
+        margin-left: 430px;
+    }
+}

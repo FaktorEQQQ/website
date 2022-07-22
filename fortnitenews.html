@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MiniBots | home</title>
+  <link rel="stylesheet" type="text/css" href="stylefortnitenews.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/logoMiniBots.png">
+
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+
+
+
+
+
+<div class="aes">
+    <label class="aesname">Aes</label>
+    <label class="aesbuildname">Build:</label>
+    <label class="aesbuild" id="aesbuild"></label>
+    <label class="aesmainkeyname">Key:</label>
+    <label class="aesmainkey" id="aesmainkey"></label>
+    <label class="aesupdatedname">Updated:</label>
+    <label class="aesupdated" id="aesupdated"></label>
+</div>
+
+<div class="news">
+  <label class="newsname">News</label>
+  <img id="newsimage">
+  <label class="newshashname">Hash:</label>
+  <label class="newshash" id="newshash"></label>
+  <label class="newsdatename">Date:</label>
+  <label class="newsdate" id="newsdate"></label>
+</div>
+
+
+
+
+
+<py-script>
+    from pyodide.http import pyfetch
+    import json
+    import asyncio
+    from js import document
+
+
+    async def request(url):
+      requestbuild = await pyfetch(url=url, method="GET")
+      output = await requestbuild.json()
+      dumpss = json.dumps(output)
+      st = json.loads(dumpss)
+      return st
+
+    aesresult = await request('https://fortnite-api.com/v2/aes')
+    pyscript.write("aesbuild", aesresult["data"]["build"])
+    pyscript.write("aesmainkey", aesresult["data"]["mainKey"])
+    pyscript.write("aesupdated", aesresult["data"]["updated"])
+
+    newsresult = await request('https://fortnite-api.com/v2/news/br')
+    document.getElementById("newsimage").src = newsresult["data"]["image"]
+    pyscript.write("newshash", newsresult["data"]["hash"])
+    pyscript.write("newsdate", newsresult["data"]["date"])
+</py-script>
+
+
+
+  
+  
+
+
+
+</body>
+</html>
