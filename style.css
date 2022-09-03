@@ -10,7 +10,6 @@ body
 {
     min-height: 100vh;
     background: #141d29;
-    overflow-x: hidden;
 }
 ::-webkit-scrollbar
 {
@@ -99,7 +98,7 @@ body
 }
 .commandcategories
 {
-    width: 2000px;
+    width: 1000px;
     height: 145px;
     display: flex;
     margin-top: 30px;
@@ -178,7 +177,20 @@ body
     margin-left: 80px;
 }
 
+@media only screen and (max-width: 1540px) {
+    .commandcategories {
+        width: 800px;
+        display: flex;
+    }
+}
 
+@media only screen and (max-width: 1340px) {
+    .commandcategories {
+        width: 600px;
+        display: flex;
+        margin-left: 590px;
+    }
+}
 
 @media only screen and (max-width: 1080px)
 {
@@ -189,7 +201,7 @@ body
     }
     .Panel1MiniDiscordBot h1
     {
-        font-size: 100px;
+        font-size: 90px;
         margin-left: -150px;
     }
     .Panel1MiniDiscordBot img
@@ -213,6 +225,7 @@ body
     }
     .commandcategories
     {
+        width: 500px;
         display: block;
         margin-left: 320px;
     }
@@ -229,7 +242,7 @@ body
     }
     .Panel1MiniFortniteStats h1
     {
-        font-size: 100px;
+        font-size: 90px;
         margin-left: -270px;
     }
     .Panel1MiniFortniteStats img
